@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/infos.css">
+    <link rel="stylesheet" href="css/styleGeneral.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/icones/favicon.png" type="image/x-icon" />
+<title>UNIVERS DE PONYO - INFOS</title>
+</head>
+
+<body>
+    <audio controls loop="true" src="sons/son_infos.mp3" type="audio/mpeg" id="audio" hidden>
+    </audio>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Voici la partie informations...
+                    Un peu de musique pour vous laisser bercer ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" id="btnOui">Allons-y !</button>
+                    <button type="button" class="btn" data-dismiss="modal" id="btnNon">Non merci</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="menu_2.html"> <img src="images/icones/fleche_blanche.png" class="flecheRetour"></a>
+    <h1>PERSONNAGES</h1>
+    <section>
+        <div class="pageInfos">
+            <div class="bulle">
+                <img src="images/icones/icone_compositeur.png" class="iconeCompositeur" data-toggle="modal" data-target="#modalCompositeur" type="button" id="iconeCompositeur">
+                <p class="titre1">COMPOSITEUR</p>
+                <!-- Modal -->
+                <div class="modal fade bd-modal-sm" id="modalCompositeur" tabindex="-1" role="dialog" aria-labelledby="modalCompositeurLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Joe Hisaishi</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close1">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/fiches/fiche_compositeur.jpg"><br><br><br><br><br><br><br><br>
+                                Compositeur iconique des films de Miyazaki, la musique de Joe Hisaishi est bien souvent un prolongement de la magie des films.
+                                <br><br>
+                                <audio controls src="sons/commentaires/compositeur.mp3" type="audio/mpeg" id="audioInfo1">
+                                </audio>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bulle">
+                <img src="images/icones/icone_realisateur.png" class="iconeRealisateur" data-toggle="modal" data-target="#modalRealisateur" type="button" id="iconeRealisateur">
+                <p class="titre2">RÉALISATEUR</p>
+                <!-- Modal -->
+                <div class="modal fade bd-modal-sm" id="modalRealisateur" tabindex="-1" role="dialog" aria-labelledby="modalRealisateurLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Hayao Miyazaki</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close2">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/fiches/fiche_realisateur.jpg"><br><br><br><br><br><br><br><br>
+                                Cofondateur du Studio Ghibli, son succès est aujourd'hui international. Ses films transmettent valeurs, humanité, et permettent de s'évader le temps d'un instant.
+                                <br><br>
+                                <audio controls src="sons/commentaires/realisateur.mp3" type="audio/mpeg" id="audioInfo2">
+                                </audio>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bulle">
+                <img src="images/icones/icone_studio.png" class="iconeStudio" data-toggle="modal" data-target="#modalStudio" type="button" id="iconeStudio">
+                <p class="titre3">STUDIO</p>
+                <!-- Modal -->
+                <div class="modal fade bd-modal-sm" id="modalStudio" tabindex="-1" role="dialog" aria-labelledby="modalStudioLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Le Studio Ghibli</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close3">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/fiches/fiche_studio_ghibli.jpg"><br><br><br><br><br><br><br><br>
+                                Studio d'animation japonais unique grâce à ses longs et courts métrages. Ces derniers portent sur des valeurs humaines et sont souvent appréciés pour leur authenticité.
+                                <br><br>
+                                <audio controls src="sons/commentaires/studio.mp3" type="audio/mpeg" id="audioInfo3">
+                                </audio>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bulle">
+                <img src="images/icones/icone_synopsis.png" class="iconeSynopsis" data-toggle="modal" data-target="#modalSynopsis" type="button" id="iconeSynopsis">
+                <p class="titre4">SYNOPSIS</p>
+                <!-- Modal -->
+                <div class="modal fade bd-modal-sm" id="modalSynopsis" tabindex="-1" role="dialog" aria-labelledby="modalSynopsisLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Synopsis</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close4">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/fiches/fiche_synopsis.jpg"><br><br><br><br><br><br><br><br>
+                                Un petit garçon et un poisson rouge à l'allure d'une fillette. Des aventures magiques, un rapport à la nature à sa simplicité, de l'amour : <i>Ponyo sur la falaise </i>est LE film à regarder en famille.
+                                <br><br>
+                                <audio controls src="sons/commentaires/synopsis.mp3" type="audio/mpeg" id="audioInfo4">
+                                </audio>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bulle">
+                <img src="images/icones/icone_trailer.png" class="iconeTrailer" data-toggle="modal" data-target="#modalTrailer" type="button" id="iconeTrailer">
+                <p class="titre5">TRAILER</p>
+                <!-- Modal -->
+                <div class="modal fade bd-modal-lg" id="modalTrailer" tabindex="-1" role="dialog" aria-labelledby="modalTrailerLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close5">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video controls>
+                                    <source src="images/fiches/ponyo-bande-annonce.mp4" type="video/mp4" id="videoInfo">
+                                </video>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<a href="credits.html"><div class="credits"><h5>CRÉDITS</h5></div></a>
+</body>
+
+
+
+
+
+
+
+<!-- Bibliothèques JS à utiliser pour les composants Bootstrap -->
+<!-- TOUJOURS DANS CET ORDRE : jQuery (version normale ou slim), Popper, Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="scripts/modal.js"></script>
+<script src="scripts/scriptGeneral.js"></script>
+<script src="scripts/scriptSonModal.js"></script>
+<script src="scripts/infos.js"></script>
+
+<footer>
+    <img src="images/icones/sound.png" class="iconeSoundOff" id="soundOff">
+    <img src="images/icones/soundOn.png" class="iconeSoundOn" id="soundOn">
+    <img src="images/icones/fullScreen.png" class="fullScreen" id="fullScreen">
+    <img src="images/icones/screen.png" class="smallScreen" id="smallScreen">
+</footer></html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/icones/favicon.png" type="image/x-icon" />
+<title>UNIVERS DE PONYO - MENU</title>
+
+</head>
+
+<body>
+
+    <audio controls loop="true" src="sons/son_menu.mp3" type="audio/mpeg" id="audio" hidden>
+    </audio>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Bienvenue dans <strong>l'univers de Ponyo !</strong> <br> Ici, vous êtes le maître à bord... Alors, naviguez prudemment ! <br>
+                    Commençons par le commencement... <br>
+                    Que diriez-vous d'une petite ambiance sonore ? Ou le plein écran ? <br><br>Qu'est-ce que vous préférez ? <br>
+                    <font size=1>N'oubliez pas que vous pourrez changer vos préférences à tout moment !</font>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" id="btnMusiqueFullScreen">La musique et le grand écran en même temps !</button>
+                    <button type="button" class="btn" data-dismiss="modal" id="btnMusique">La musique !</button>
+                    <button type="button" class="btn" data-dismiss="modal" id="btnFullScreen">Un énorme écran !</button>
+                    
+                    <button type="button" class="btn" data-dismiss="modal" id="btnRien">Aucun des deux, je préfère naviguer tranquillement.</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <h1 class="titre">L'UNIVERS <br> DE <br> PONYO</h1>
+
+    <div class="container">
+
+        <div class="menu1">
+            <a href="persos.html">
+                <p>PERSONNAGES</p>
+                <img src="images/icones/fleche_blanche.png" class="fleche1">
+                <img src="images/icones/bouton_personnages.png" class="icone">
+
+            </a>
+        </div>
+
+        <div class="menu2">
+            <a href="univers.html">
+                <p>UNIVERS</p>
+                <img src="images/icones/bouton_univers.png" class="icone"><br>
+                <img src="images/icones/fleche_blanche.png" class="fleche2">
+
+            </a>
+        </div>
+
+        <div class="menu3">
+            <a href="infos.html">
+                <p>INFORMATIONS</p>
+                <img src="images/icones/bouton_informations.png" class="icone">
+                <img src="images/icones/fleche_blanche.png" class="fleche3">
+            </a>
+        </div>
+    </div>
+<a href="credits.html"><div class="credits"><h5>CRÉDITS</h5></div></a>
+
+
+</body>
+
+<!-- Bibliothèques JS à utiliser pour les composants Bootstrap -->
+<!-- TOUJOURS DANS CET ORDRE : jQuery (version normale ou slim), Popper, Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="scripts/modal.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/scriptGeneral.js"></script>
+<footer>
+    <img src="images/icones/sound.png" class="iconeSoundOff" id="soundOff">
+    <img src="images/icones/soundOn.png" class="iconeSoundOn" id="soundOn">
+    <img src="images/icones/fullScreen.png" class="fullScreen" id="fullScreen">
+    <img src="images/icones/screen.png" class="smallScreen" id="smallScreen">
+</footer>
+
+</html>
