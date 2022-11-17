@@ -1,0 +1,165 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: hidden;
+
+}
+
+body {
+    background-image: url(../images/fond/fond_accueil.jpg);
+    font-family: 'Cabin Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 100vh;
+    height: auto;
+}
+
+text {
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+}
+
+
+
+.audio {
+    height: 3.2vh;
+    position: relative;
+    top: 1.5vh;
+    left: 1vw;
+}
+
+.indication {
+    display: inline-flex;
+    margin-bottom: 5vh;
+}
+
+/* Pulse */
+@-webkit-keyframes audio {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+@-webkit-keyframes fleche1 {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@-webkit-keyframes fleche2 {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.audio {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-animation-name: audio;
+    animation-name: audio;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.fleche1 {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-animation-name: audio;
+    animation-name: audio;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.fleche2 {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-animation-name: audio;
+    animation-name: audio;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.fleche1 {
+    height: 4.5vw;
+    position: absolute;
+    left: 18vw;
+    bottom: 8vh;
+    cursor: pointer;
+}
+
+.fleche2 {
+    height: 4.5vw;
+    position: absolute;
+    right: 18vw;
+    bottom: 8vh;
+    cursor: pointer;
+
+}
+
+.credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    color: white;
+    font-size: 2.5vh;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+
+    .fleche1 {
+        bottom: 18.5vh;
+        left: 8vh;
+    }
+
+    .fleche2 {
+        bottom: 18.5vh;
+        right: 8vh;
+    }
+
+    .indication {
+        display: inline-block;
+        text-align: center;
+    }
+
+}

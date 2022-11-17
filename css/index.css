@@ -1,0 +1,179 @@
+/*------------------ACCUEIL------------------*/
+.accueil {
+    background-image: url(../images/image_accueil.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.encadre {
+    height: 180px;
+    width: 53vw;
+    border: 4px double white;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    padding: 15px;
+
+
+}
+
+.encadre h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    color: white;
+    font-size: 3vh;
+
+}
+
+.fleche {
+    text-align: center;
+    position: relative;
+    top: 55%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+.fleche img {
+    height: 10vh;
+}
+
+/* Pulse */
+@-webkit-keyframes fleche {
+    25% {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+
+    75% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.9);
+    }
+}
+
+.fleche {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-animation-name: fleche;
+    animation-name: fleche;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/*------------------PROFIL------------------*/
+#profil {
+    padding-top: 50px;
+    background-color: #B38898;
+}
+
+
+#profil h3 {
+    margin-bottom: 40px;
+}
+
+.profil {
+    color: white;
+}
+
+.colonne {
+    display: inline-flex;
+}
+
+.imgProfil {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 35vh;
+}
+
+
+.background2 {
+    margin-top: 50px;
+}
+
+.droite {
+    margin-top: 20px;
+    padding: 40px;
+    width: 40%;
+}
+
+.gauche {
+    width: 50%;
+    padding-left: 100px;
+}
+
+
+
+
+.boutons {
+    padding-bottom: 50px;
+}
+
+.btn {
+    background-color: #1B1A28;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    color: #B38898;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+
+    .profil {
+        margin-bottom: 120px;
+    }
+
+    .colonne {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .droite {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .gauche {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+/*TOUT*/
+.title {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 35%;
+    display: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px black;
+    transition-duration: .3s;
+}
+
+.italic {
+    font-style: italic;
+}

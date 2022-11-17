@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    !important margin-bottom: 20px;
+
+}
+
+
+h3 {
+    font-size: 1.5vh;
+    !important margin-bottom: 20px;
+
+    
+}
+
+h4{
+    font-size: 3.8vh;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    background-color: #E3C7D2;
+}
+
+body::-webkit-scrollbar {
+  width: 14px;              
+}
+
+body::-webkit-scrollbar-track {
+  background: #E3C7D2;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1B1A28;    
+  border-radius: 4px;      
+}
+
+/*------------------BARRE DE MENU------------------*/
+.navbar {
+    background-color: #1B1A28;
+    width: 100%;
+}
+
+nav a {
+    font-size: 25px;
+    color: #D3D0CB;
+    margin: 0 50px;
+
+
+}
+
+.navbar a:hover {
+    color: #B38898;
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #1B1A28;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+/*------------------FOOTER------------------*/
+footer {
+    background-color: #B38898;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.social {
+    height: 5vh;
+    margin: 0 5px 2px;
+    opacity: 0.6;
+
+}
+
+.social:hover{
+    opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+
+body {
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+
+
+}
+
+body h1 {
+    font-size: 8vh;
+    transform: rotate(90deg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 46vh;
+    left: -12vw;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: relative;
+    font-size: 2.1vh;
+    text-align: center;
+
+}
+
+.flecheRetour {
+    height: 5vh;
+    transform: rotate(90deg);
+    margin-bottom: 2.5vw;
+    position: absolute;
+    left: 5vw;
+    top: 6vh;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 6vh;
+}
+
+.iconeSoundOn {
+    height: 4.3vh;
+    position: absolute;
+    left: 1vh;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.iconeSoundOff {
+    height: 4.3vh;
+    position: absolute;
+    left: 1vh;
+    cursor: pointer;
+}
+
+.fullScreen {
+    height: 4.3vh;
+    position: absolute;
+    left: 8vh;
+    cursor: pointer;
+}
+
+.smallScreen {
+    height: 4.3vh;
+    position: absolute;
+    left: 8vh;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.modal-footer .btn {
+    background-color: #E4ECF7;
+    font-weight: bold;
+}
+
+.credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    color: white;
+    opacity: 0.5;
+    font-size: 2.5vh;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+    body h1 {
+        font-size: 8vh;
+        left: -22vh !important;
+    }
+
+    .flecheRetour {
+        left: 1vh;
+    }
+
+}

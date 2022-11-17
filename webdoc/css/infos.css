@@ -1,0 +1,174 @@
+body {
+    background-image: url(../images/fond/fond_informations2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+body h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: -8vw !important;
+}
+
+.pageInfos img {
+    height: 12vh;
+    position: absolute;
+}
+
+
+
+.bulle {
+    color: transparent;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.bulle:hover {
+    color: white;
+}
+
+
+
+
+.iconeCompositeur {
+    top: 36vh;
+    left: 38vw;
+}
+
+.titre1 {
+    top: 48vh;
+    left: 36vw;
+}
+
+
+
+
+.iconeRealisateur {
+    top: 10vh;
+    right: 22vw;
+}
+
+.titre2 {
+    top: 22.5vh;
+    right: 24vw;
+}
+
+
+
+
+.iconeStudio {
+    top: 11.5vh;
+    left: 38vw;
+}
+
+.titre3 {
+    top: 24vh;
+    left: 38vw;
+}
+
+
+
+
+.iconeSynopsis {
+    bottom: 8vh;
+    right: 19vw;
+}
+
+.titre4 {
+    bottom: 0.8vh;
+    right: 18.5vw;
+}
+
+
+
+
+.iconeTrailer {
+    bottom: 12vh;
+    left: 33.5vw;
+}
+
+.titre5 {
+    bottom: 7vh;
+    left: 33vw;
+}
+
+
+
+.pageInfos p {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 3vh;
+    position: absolute;
+
+}
+
+.pageInfos .modal-content {
+    background: linear-gradient(#AC262D, #AC262D);
+    color: white;
+    height: 485px;
+
+}
+
+.pageInfos .modal-footer .btn {
+    background-color: #E4ECF7;
+    font-size: 2vh;
+}
+
+.pageInfos .modal-body {
+    font-weight: 100;
+}
+
+.pageInfos .modal-body img {
+    height: 165px;
+}
+
+.pageInfos .modal-body audio {
+    width: 265px;
+}
+
+.pageInfos .modal-body video {
+    width: 760px;
+}
+
+#modalTrailer .modal-header {
+    height: 10px;
+}
+
+#modalTrailer .modal-header span {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+#myModal .modal-content {
+    background-color: #BCAB79;
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+    .pageInfos img {
+        height: 6vh;
+        position: absolute;
+    }
+
+    .pageInfos p {
+        font-size: 1.5vh;
+    }
+
+    .iconeStudio {
+        top: 19.5vh;
+        left: 38vw;
+    }
+
+    .titre3 {
+        top: 26vh;
+        left: 38vw;
+    }
+
+}

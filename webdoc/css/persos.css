@@ -1,0 +1,129 @@
+body {
+    background-image: url(../images/fond/fond_personnages.jpg);
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+h1 {
+    left: -8vw !important;
+}
+
+.container {
+    position: relative;
+    left: 6vw;
+    top: 14vh;
+    font-size: 400%;
+    /*border: 2px solid white;*/
+    height: 45vh;
+    width: 45vw;
+    text-align: center;
+
+}
+
+.closeText {
+    display: none;
+    position: absolute;
+    right: 15vw;
+    top: 6vh;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-size: 4vh;
+
+}
+
+.images img {
+    height: 10vw;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.images img:hover {
+    opacity: 1;
+    transition: 0.5s
+}
+
+.img1 {
+    position: absolute;
+    top: 10vh;
+    left: 12vw;
+}
+
+.img2 {
+    position: absolute;
+    top: 38vh;
+    left: 18vw;
+}
+
+.img3 {
+    position: absolute;
+    top: 62vh;
+    left: 30vw;
+}
+
+.img4 {
+    position: absolute;
+    top: 70vh;
+    left: 48vw;
+}
+
+.img5 {
+    position: absolute;
+    top: 68vh;
+    left: 67vw;
+}
+
+.img6 {
+    position: absolute;
+    top: 48vh;
+    left: 84vw;
+}
+
+
+.modal-content {
+    background-color: #56A4B1;
+}
+
+.modal-footer .btn{
+    background-color: transparent;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+
+    .img1 {
+        top: 65vh;
+        left: 30vw;
+    }
+
+    .img2 {
+        top: 65vh;
+        left: 50vw;
+    }
+
+    .img3 {
+        top: 65vh;
+        left: 70vw;
+    }
+
+    .img4 {
+        top: 80vh;
+        left: 30vw;
+        margin-top: 30px;
+    }
+
+    .img5 {
+        top: 80vh;
+        left: 50vw;
+        margin-top: 30px;
+    }
+
+    .img6 {
+        top: 80vh;
+        left: 70vw;
+        margin-top: 30px;
+    }
+    
+    
+
+}

@@ -1,0 +1,71 @@
+/*------------------MAIN------------------*/
+
+body {
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: #1B1A28;
+    overflow-x: hidden;
+}
+
+.italic {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.italic:hover{
+    opacity: 1;
+}
+
+
+/*------------------TITRE------------------*/
+
+.titre {
+    text-align: center;
+}
+
+
+/*------------------GALERIE------------------*/
+
+.card {
+    margin-top: 50px;
+}
+
+
+.galerie {
+    padding-top: 50px;
+    margin: 50px;
+
+}
+
+
+.affiches {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.divers,
+.videos,
+.sites,
+.magazine {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.btn {
+    background-color: #B38898;
+    color: white;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+    
+    .affiches{
+        width: 100%;
+    }
+    
+    .divers,
+.videos,
+.sites,
+.magazine {
+    width: 100%;
+}
+}

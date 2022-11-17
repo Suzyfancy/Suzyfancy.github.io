@@ -1,0 +1,41 @@
+body{
+    background-image: url(../images/fond/fond_credits.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    box-shadow: inset 0px 0px 3000px 2000px rgba(0,0,0,0.5);
+    
+}
+
+body h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: -2vw !important;
+}
+
+h3{
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texte{
+    color: white;
+     font-family: 'Raleway', sans-serif;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20vh;
+    font-size: 2.5vh;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+
+    body h1 {
+        margin-left: 48% !important;
+        transform: rotate(0deg) !important;
+        top: 4vh !important;
+    }}

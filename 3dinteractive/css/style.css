@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Raleway';
+}
+
+
+/*------------------- MENU DEROULANT ---------------------------------*/
+
+.nav {
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 100px;
+
+
+}
+
+.nav a {
+    color: white;
+    border-right: 1px solid white;
+}
+
+.nav a:hover {
+    color: #F26430;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    color: #F26430 !important;
+}
+
+.nav img {
+    height: 5vh;
+    padding: 5px;
+}
+
+/*------------------- BOUGIES ---------------------------------*/
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bougies {
+    display: flex;
+    text-align: center;
+
+}
+
+.bougies img {
+    height: 50vh;
+    opacity: 0.7;
+
+}
+
+.bougies img:hover {
+    opacity: 1;
+}
+
+.choix1,
+.choix2,
+.choix3 {
+    margin: 0 auto;
+    height: 50vh;
+
+}
+
+
+
+.selectionner {
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 3vh;
+    border: 2px solid white;
+    width: 35vh;
+}
+
+.selectionner:hover {
+    color: burlywood;
+    border: 2px solid burlywood;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+    .bougies {
+        display: block;
+    }
+
+    .bougies img {
+        padding: 100px;
+
+    }
+}
+
+
+/*-----------------------------------INTERFACE BOUGIE---------------------------*/
+
+.interface {
+    margin: 0 auto;
+    height: 90vh;
+    border: 2px solid white;
+    width: 90%;
+    margin-bottom: 50px;
+    text-align: center;
+
+
+
+}
+
+.modele-bougie {
+    height: 75%
+}
+
+.colors div {
+    display: inline-flex;
+    margin: 30px;
+}
+
+
+.colors p {
+    padding-top: 70px;
+
+}
+
+.colors button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 1px grey;
+
+}
+
+.colors button:hover {
+    border: 1px solid;
+}
+
+.jaune {
+    background-color: #F9D34E;
+}
+
+.rouge {
+    background-color: #EB2536;
+}
+
+.lavande {
+    background-color: #E88DC9;
+}
+
+.vert-clair {
+    background-color: #3FD751;
+}
+
+.vert-fonce {
+    background-color: #2B811A;
+}
+
+.marron {
+    background-color: #A25711;
+}
+
+.blanc {
+    background-color: #DEDBD0;
+}
+
+.orange {
+    background-color: #F9984E;
+}
+
+
+.sizes div {
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+.sizes button {
+    background-color: #3C3A39;
+    color: white;
+    font-size: 3vh;
+    padding: 20px 40px 0;
+    border-radius: 30%;
+    border: none;
+}
+
+.sizes button:hover {
+    background-color: #8E7E75;
+    transition: 0.2s;
+}
+
+
+/*--------------------------- boutons côté----------------------------------*/
+
+.boutons-cote button {
+    background-color: transparent;
+    border: none;
+}
+
+.boutons-cote img {
+    height: 8vh;
+}
+
+.boutons-cote {
+    position: absolute;
+    top: 430px;
+    right: 90px;
+}
+
+
+
+
+
+.carousel-control-prev {
+    position: relative;
+    left: -50px;
+}

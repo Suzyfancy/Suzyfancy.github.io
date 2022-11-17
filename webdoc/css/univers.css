@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/fond/fond_univers.jpg);
+}
+
+
+body h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    left: -1vw !important;
+}
+
+video {
+    height: 92vh;
+    width: 78vw;
+    margin-left: 14vw;
+    margin-top: 4.5vh;
+
+}
+
+.credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+
+    body h1 {
+        margin-left: 48% !important;
+        transform: rotate(0deg) !important;
+        top: 4vh !important;
+    }
+
+    video {
+        height: 30vh;
+        position: relative;
+        top: 35vh;
+
+    }
+
+}

@@ -1,0 +1,72 @@
+/*------------------CONTACT------------------*/
+
+.contact {
+    background-image: url(../images/image_contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.form {
+    padding-top: 50px;
+}
+
+input {
+    width: 45vw;
+    height: 8vh;
+    margin: 15px;
+}
+
+.formNom {
+    display: inline-block;
+    width: 45vw;
+}
+
+.formNom input {
+    margin-left: 0;
+}
+
+.formPrenom input {
+    margin-left: 0;
+}
+
+
+
+.formPrenom {
+    display: inline-block;
+    width: 45vw;
+}
+
+.formMail input {
+    display: inline-block;
+    width: 90vw;
+}
+
+.formObjet input {
+    display: inline-block;
+    width: 90vw;
+}
+
+.formMessage textarea {
+    width: 90vw;
+    height: 30vh;
+    margin: 15px;
+}
+
+.valider {
+    background-color: #B38898;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.valider:hover {
+    background-color: #D3B8C2;
+    box-shadow: 1px 1px 1px black;
+}
