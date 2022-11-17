@@ -7,16 +7,16 @@
             $entete  = 'MIME-Version: 1.0' . "\r\n";
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $entete .= 'From: ' . $_POST['email'] . "\r\n";
-            $message = 'Message envoyé depuis suzannelebastard.fr
+            $message = 'Message envoyé depuis suzannelebastard.me
         <p><b>Nom : </b>' . $_POST['nom'] . '<br>
         <p><b>Prénom : </b>' . $_POST['prenom'] . '<br>
         <b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
-            $retour = mail('suzanne.lebastard@gmail.com', 'from suzannelebastard.fr', $message);
+            $retour = mail('suzanne.lebastard@gmail.com', 'from suzannelebastard.me', $message);
         }
         if($retour)
               //  echo '<p>Votre message a été envoyé.</p>';
-        header("Location:http://suzannelebastard.fr");
+        header("Location:http://suzannelebastard.me");
         
     }
     ?>
