@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^suzannelebastard.me [NC,OR]
+RewriteCond %{HTTP_HOST} ^http://suzannelebastard.me/ [NC]
+RewriteRule ^(.*)$ https://suzannelebastard.me//$1 [L,R=301,NC]
