@@ -10,63 +10,25 @@
 
 }
 
-.form {
-    padding-top: 50px;
+
+.blocliens{
+    height: 500px;
+    padding-top: 20vh;
 }
 
-input {
-    width: 45vw;
+.bloccontact{
+   display: inline-flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bloccontact p{
+    padding: 20px;
+}
+
+
+.iconecontact{
     height: 8vh;
-    margin: 15px;
-}
-
-.formNom {
-    display: inline-block;
-    width: 45vw;
-}
-
-.formNom input {
-    margin-left: 0;
-}
-
-.formPrenom input {
-    margin-left: 0;
-}
-
-
-
-.formPrenom {
-    display: inline-block;
-    width: 45vw;
-}
-
-.formMail input {
-    display: inline-block;
-    width: 90vw;
-}
-
-.formObjet input {
-    display: inline-block;
-    width: 90vw;
-}
-
-.formMessage textarea {
-    width: 90vw;
-    height: 30vh;
-    margin: 15px;
-}
-
-.valider {
-    background-color: #B38898;
-    border: none;
-    color: white;
-    height: 50px;
-    width: 200px;
-    border-radius: 15px;
-    margin-bottom: 50px;
-}
-
-.valider:hover {
-    background-color: #D3B8C2;
-    box-shadow: 1px 1px 1px black;
+    opacity: 0.8;
+    
 }
