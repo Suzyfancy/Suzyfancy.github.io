@@ -12,11 +12,11 @@
         <p><b>Prénom : </b>' . $_POST['prenom'] . '<br>
         <b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
-            $retour = mail('suzanne.lebastard@gmail.com', 'from suzannelebastard.me', $message);
+            $retour = mail('suzanne.lb@hotmail.com', 'from suzannelebastard.me', $message);
         }
         if($retour)
               //  echo '<p>Votre message a été envoyé.</p>';
-        header("Location:http://suzannelebastard.me");
+        header("Location:https://suzannelebastard.me");
         
     }
     ?>
