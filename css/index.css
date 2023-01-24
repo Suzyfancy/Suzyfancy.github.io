@@ -83,9 +83,7 @@
     color: white;
 }
 
-.colonne {
-    display: inline-flex;
-}
+
 
 .imgProfil {
     margin-top: 30px;
@@ -95,22 +93,16 @@
 
 
 .background2 {
-    margin-top: 50px;
-}
-
-.droite {
-    margin-top: 20px;
-    padding: 40px;
-    width: 40%;
+    margin: 0 auto;
 }
 
 .gauche {
-    width: 50%;
-    padding-left: 100px;
+    text-align: center;
 }
 
-
-
+.droite{
+    padding-right: 10vh;
+}
 
 .boutons {
     padding-bottom: 50px;
@@ -176,4 +168,21 @@
 
 .italic {
     font-style: italic;
+}
+
+
+
+
+.cvvideo {
+    
+    color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50vw;
+
+
+}
+
+.cvvideo .card iframe {
+    height: 50vh;
 }
