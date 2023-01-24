@@ -9,7 +9,7 @@ body h1 {
     left: -1vw !important;
 }
 
-video {
+.video {
     height: 92vh;
     width: 78vw;
     margin-left: 14vw;
@@ -34,11 +34,19 @@ video {
         top: 4vh !important;
     }
 
-    video {
+    .video {
         height: 30vh;
         position: relative;
         top: 35vh;
 
     }
+
+}
+
+
+
+iframe{
+    height: 90vh;
+    width: 70vw;
 
 }
