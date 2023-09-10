@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/************************ TOUT ***************************/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: League Spartan, sans-serif;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#495057 1px, transparent 1px);
+    background-size: 16px 16px;
+    /* Ajustez la taille des points ici */
+    color: white;
+
+
+}
+
+
+/************************ HEADER ***************************/
+
+header {
+    background-color: white;
+    padding: 30px 0 1px 0;
+    font-size: 2em;
+    z-index: 10000;
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin-right: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        padding: 0;
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        align-items: flex-end;
+
+    }
+
+    .nav-links.active {
+        display: flex;
+
+    }
+
+    .nav-links li {
+        padding-bottom: 10px;
+        margin-right: 15px;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    /* Ajoutez cela pour positionner correctement les pseudo-éléments */
+}
+
+.menu-link.active {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/*------------------FOOTER------------------*/
+footer {
+    background-color: #000;
+    width: 100%;
+    margin-top:30px;
+    text-align: center;
+    
+}
+
+.footer {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.social {
+    height: 4vh;
+    margin: 0 5px 2px;
+    opacity: 0.6;
+
+}
+
+.social:hover{
+    opacity: 1;
+}

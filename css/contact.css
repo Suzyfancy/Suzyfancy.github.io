@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    main p{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+}

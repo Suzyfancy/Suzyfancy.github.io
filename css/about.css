@@ -1,0 +1,152 @@
+span{
+    color: red;
+    font-weight: 500;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.photo {
+    flex: 2;
+    padding: 20px;
+}
+
+.photo img {
+    max-width: 75%;
+    height: auto;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .photo {
+        text-align: center;
+
+    }
+}
+
+.presentation {
+    flex: 4;
+    padding: 20px;
+    background-color: black;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    background-color: black;
+}
+
+.boutons{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.boutons .btn{
+    margin: 20px;
+}
+
+.scroll {
+    margin: 100px;
+}
+
+.fleche {
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+.fleche img {
+    height: 10vh;
+}
+
+/* Pulse */
+@-webkit-keyframes fleche {
+    25% {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+
+    75% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.9);
+    }
+}
+
+.fleche {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-animation-name: fleche;
+    animation-name: fleche;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/*-------------------------------------------------------*/
+
+#parcours{
+    text-align: center;
+}
+.accordion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: black;
+   
+    
+}
+
+.btn {
+    color: black;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    border: solid white 0.5px;
+    background-color: black;
+}
+
+/*-------------------------------------------------------*/
+
+.skills{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container2{
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.list-group-item{
+    padding-left: 50px;
+}
+
+.list-group-item:hover{
+    background-color: gainsboro;
+}

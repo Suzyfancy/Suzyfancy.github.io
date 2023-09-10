@@ -1,0 +1,48 @@
+/************************ CARDS ***************************/
+
+.filter-button{
+    margin-top: 20px;
+}
+.content {
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 50px;
+
+}
+
+.videos iframe {
+    width: 100%;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.btn {
+    color: black;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    border: solid white 0.5px;
+    background-color: black;
+
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.affiches:last-child {
+    margin-bottom: 20px;
+}
